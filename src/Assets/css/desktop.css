@@ -1,0 +1,19 @@
+@media only screen and (min-width:1024px) {
+  .container{
+    padding:10px 0px;
+    background: #b9bdba;
+
+}
+.padding-10{
+    padding:10px;
+}
+.margin-10{
+    margin:0 10px
+}
+   .width-responsive{
+     width:19%;
+   }
+   .flex-box-customized{
+    display:flex
+}
+  }

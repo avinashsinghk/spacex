@@ -1,0 +1,20 @@
+@media only screen and (max-width:700px) {
+    .container{
+        padding:10px;
+        background: #b9bdba;
+    
+    }
+    .padding-10{
+        padding:10px;
+    }
+    .margin-10{
+        margin:15px 0 0 0!important
+    }
+    .width-responsive{
+      width:87%;
+    }
+   
+    .flex-box-customized{
+        display:block
+    }
+   }
