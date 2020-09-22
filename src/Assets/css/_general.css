@@ -41,6 +41,7 @@ width: 50%;
     height:250px;
     background:#b9bdba;
     background-size: contain;
+    text-align: center;
    
 }.page-title{
     font-size: 34px;
