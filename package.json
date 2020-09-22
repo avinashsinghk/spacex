@@ -41,5 +41,7 @@
   },
   "devDependencies": {
     "redux-thunk": "^2.3.0"
-  }
+  },
+  "homepage": "."
+  
 }
