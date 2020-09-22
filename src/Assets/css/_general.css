@@ -28,8 +28,12 @@ width: 50%;
     font-size: 18px;
     font-weight: bold;
 }
+.active{
+    background:#58d93b
+}
 .flex-container{
     display: flex;
+    flex-wrap: wrap;
 }
 .filter-label{
     font-size: 28px;
@@ -45,7 +49,7 @@ width: 50%;
    
 }.page-title{
     font-size: 34px;
-    padding: 5px 15px;
+    padding:0 15px;
     font-weight: bold;
 }
 .mission-name{
@@ -64,7 +68,7 @@ width: 50%;
     width:50%; 
 }
 .padding-tb{
-    padding:5px 0px;
+    padding:10px 0px;
 }
 .spacex-details-value{
     color:#4b2ef0

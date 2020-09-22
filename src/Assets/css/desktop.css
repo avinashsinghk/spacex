@@ -8,12 +8,13 @@
     padding:10px;
 }
 .margin-10{
-    margin:0 10px
+    margin:10px
 }
    .width-responsive{
-     width:19%;
+    width: 20%;
    }
    .flex-box-customized{
-    display:flex
+    display:flex;
+    flex-wrap: wrap;
 }
   }
