@@ -1,19 +1,25 @@
-@media only screen and (min-width:700) and (max-width:1024px) {
-    .container{
-      padding:10px 0px;
-      background: #b9bdba;
-  
-  }
-  .padding-10{
-      padding:10px;
-  }
-  .margin-10{
-      margin:0 10px
-  }
-     .width-responsive{
-       width:50%;
-     }
-     .flex-box-customized{
-      display:flex
-  }
-    } 
+@media only screen and (min-width:701px) and (max-width:1023px) {
+.padding-10{
+    padding:10px;
+}
+.margin-10{
+    margin:10px
+}
+   .width-responsive{
+    width: 40%;
+    align-self: flex-start;
+    text-align: left;
+   }
+   .flex-box-customized{
+    display:flex;
+    flex-wrap: wrap;
+}
+.mission-detail-flex-box{
+  flex-flow: column wrap;
+  display: -webkit-inline-box;
+  flex: 1 1;
+}
+.mission-detail-flex-box .tablet-container{
+  width:83%;
+}
+ } 

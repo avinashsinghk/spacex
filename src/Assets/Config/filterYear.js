@@ -14,7 +14,7 @@ export const filterYearOptions=[
     {value:"2018",label:"year-2018"}
 ]
 export const filterBooleanOptions=[
-    {value:"True"},
-    {value:"False"}
+    {value:"true"},
+    {value:"false"}
     
 ]

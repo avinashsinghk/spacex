@@ -2,6 +2,8 @@
   .container{
     padding:10px 0px;
     background: #b9bdba;
+    text-align: center;
+    max-width: 1440px;
 
 }
 .padding-10{
@@ -11,10 +13,20 @@
     margin:10px
 }
    .width-responsive{
-    width: 20%;
+  
+    align-self: flex-start;
+    text-align: left;
+    flex-basis: 18.7%;
+    flex-grow: 0;
+
    }
    .flex-box-customized{
     display:flex;
     flex-wrap: wrap;
+}
+.mission-detail-flex-box{
+  flex-flow: column wrap;
+  display: -webkit-inline-box;
+  flex: 1 1;
 }
   }

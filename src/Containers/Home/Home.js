@@ -19,13 +19,14 @@ class Home extends React.Component {
         <div className="page-title">SpaceX Launch Programs</div>
         <div className="flex-box-customized">
           <FilterCard updateFilter={this.updateDashboard}></FilterCard>
-         
+          <div className="mission-detail-flex-box">
             {spacexData.map((data) => {
               console.log(data);
               return <LaunchDetailsCard details={data} />;
             })}
-          
+          </div>
         </div>
+        <div className="footer">Developed By Avinash(sikarwaravinash93@gmail.com)</div>
       </div>
     );
   }

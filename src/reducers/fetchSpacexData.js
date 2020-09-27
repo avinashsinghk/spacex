@@ -9,6 +9,7 @@ export default function(state = null, action) {
       return action.payload.data;
     case FETCH_FILTERED_DATA:
         return action.payload.data
+    
     default:
         return [];
         
